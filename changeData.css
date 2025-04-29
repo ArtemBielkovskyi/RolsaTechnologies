@@ -1,0 +1,17 @@
+.Input{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:175px;
+    height: 45px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.usernameTitle{
+    font-size: 1.8em;
+}
+
+.container{
+    margin-top: 15%;
+}

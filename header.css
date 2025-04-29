@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 275;
+    font-style: normal;
+}
+
+.header{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider2{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    color: #f1f1f1;
+    z-index: 100;
+}
+
+.button{
+    overflow: hidden;
+    z-index: 200;
+}
+
+.userName{
+    overflow: hidden;
+    z-index: 200;
+}
+
+.navigation{
+    width: auto;
+    padding: 20px 35px;
+    z-index: 200;
+
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+    top:10px;
+    cursor: pointer;
+}
+
+.Title{
+    position: absolute;
+    left: 50px;
+    top:10px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.Reg{
+    position: absolute;
+    right:50px;
+    padding: 20px 25px;
+    height: 50px;
+}
+
+.button:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.userName{
+    position: absolute;
+    right:250px;
+    padding: 20px 25px;
+    height: 50px;
+    cursor: pointer;
+}
+.line1A{
+    transform:rotate(-45deg);
+    transition: all 0.3s;
+}
+
+.line2A{
+    transform:rotate(45deg);
+    transition: all 0.3s;
+
+}
+
+.adminCrown{
+    position: absolute;
+    right:249px;
+    top:19px;
+}
+.hamburger{
+    width:50px;
+    height: 50px;
+    display: none;
+    z-index: 150;
+}
+
+.l{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 33%;
+}
+/* hidding header if screen is not large enough for a normal navbar */
+@media only screen and (max-width:1182px){
+    .hamburger{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .Title{
+        display: none;
+    }
+    .button{
+        display:none;
+    }
+    .userName{
+        display:none;
+    }
+    .adminCrown{
+        display:none;
+    }
+}

@@ -1,0 +1,241 @@
+.chartContainer{
+    width: 40%;
+    position: absolute;
+    left:10%;
+}
+
+.chartContainer2{
+    width: 20%;
+    position: absolute;
+    right:20%;
+}
+
+.title{
+    font-size: 1.8em;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+
+.title2{
+    font-size: 1.8em;
+    margin-top: 15vh;
+}
+
+.title3{
+    font-size: 1.5em;
+}
+
+.down{
+    height: 10vh;
+    cursor: pointer;
+    margin-top: 55vh;
+    margin-bottom: 5%;
+}
+
+.carbonInfo{
+    height: 80vh;
+}
+
+.firstSet{
+    width: 49.9%;
+    height: 100%;
+    float: left;
+}
+.secondSet{
+    width: 49.9%;
+    height: 100%;
+    float: left;
+}
+
+.line{
+    height: 70%;
+    margin-top: 7%;
+    width: 0.1%;
+    background-color: black;
+    float: left;
+}
+
+.firstSetText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65%;
+    margin-top:15%;
+}
+
+.secondSetText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 75%;
+    margin-top:20%;
+}
+
+.down2{
+    height: 10vh;
+    cursor: pointer;
+    position: relative;
+    margin-top: -20%;
+    display: none;
+}
+
+.video{
+    width: 100%;
+}
+
+
+.vidTitle{
+    position: absolute;
+    top: 155%;
+    left:30%;
+    font-size: 3em;
+    letter-spacing: 15px;
+    z-index: 10;
+    color: white;
+    text-shadow: 5px 5px 15px;
+}
+/* Phone media tag */
+@media (max-width:480px) and (min-height:480px){
+    .chartContainer{
+        width: 80%;
+        position: inherit;
+        margin-left:10%;
+    }
+
+    .vidTitle{
+        display: none;
+    }
+    
+    .chartContainer2{
+        width: 80%;
+        margin-top: 50%;
+        position: inherit;
+        margin-left:10%;
+    }
+    .down{
+        display: none;
+    }
+    .secondSection{
+        display: none;
+    }
+
+    .firstSetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-top:40%;
+    }
+    
+    .secondSetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30%;
+        margin-top:70%;
+    }
+    .line{
+        height: 70vh;
+        margin-top: 7%;
+        width: 0.1%;
+        background-color: black;
+        float: left;
+    }
+}
+/* Turned phone media tag */
+@media (min-width:480px) and (max-height:480px){
+    .vidTitle{
+        display: none;
+    }
+    .firstSetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-top:15%;
+    }
+    
+    .secondSetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30%;
+        margin-top:20%;
+    }
+}
+/* Ipad media tag */
+@media (max-width:1023px) and (min-height:1024px){
+    .chartContainer{
+        width: 80%;
+        position: inherit;
+        margin-left:10%;
+    }
+
+    .vidTitle{
+        display: none;
+    }
+    
+    .chartContainer2{
+        width: 80%;
+        margin-top: 50%;
+        position: inherit;
+        margin-left:10%;
+    }
+    .down{
+        display: none;
+    }
+    .secondSection{
+        display: none;
+    }
+
+    .firstSetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+        margin-top:40%;
+    }
+    
+    .secondSetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30%;
+        margin-top:70%;
+    }
+    .line{
+        height: 70vh;
+        margin-top: 7%;
+        width: 0.1%;
+        background-color: black;
+        float: left;
+    }
+}
+/* Turned Ipad or tablet media tag  */
+@media (max-height:1024px) and (min-width:1024px){
+    .vidTitle{
+        display: none;
+    }
+    
+}
+/* Medium screens media tag */
+@media (max-width:1381px){
+    .vidTitle{
+        display: none;
+    }
+}
+/* Laptop and larger screens */
+@media (min-width:1381px){
+    .vidTitle{
+        position: absolute;
+        top: 155%;
+        left:30%;
+        font-size: 3em;
+        letter-spacing: 15px;
+        z-index: 10;
+        color: white;
+        text-shadow: 5px 5px 15px;
+        display: block;
+    }
+}

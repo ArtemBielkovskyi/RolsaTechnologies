@@ -1,0 +1,58 @@
+.title{
+    font-size: 2em;
+    margin-top:5%;
+}
+
+.subTitle{
+    font-size: 1em;
+    margin-bottom: 5%;
+}
+
+.elTitle{
+    font-size: 1.7em;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.electricity{
+    height: 90vh;
+}
+
+.calculator{
+    margin-top: 15%;
+    width: 330px;
+    margin-left: 20px;
+}
+
+.field{
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+input{
+    border-radius: 7px;
+    border:1px solid black;
+    margin-right: 5px;
+    padding:5px 10px;
+    width: 260px;
+}
+
+.price{
+    margin-bottom: 20px;
+}
+
+.btn-outline-success{
+    margin-left: -40px;
+}
+
+.result{
+    margin-left: -40px;
+    font-size: 1.5em;
+}
+/* For a smaller screen sizes */
+@media only screen and (max-width:1601px){
+    .down{
+        display: none;
+    }
+}
